@@ -1,0 +1,11 @@
+# Platform image libraries (as published by the organisers, confirmed 2026-10-02).
+# model.pkl was trained with exactly these versions, and prediction_notebook.ipynb needs nothing else.
+numpy==2.1.3
+scipy==1.14.1
+pandas==2.2.3
+scikit-learn==1.5.2
+joblib==1.4.2
+xgboost==2.1.3
+lightgbm==4.5.0
+matplotlib==3.9.2
+seaborn==0.13.2

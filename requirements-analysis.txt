@@ -1,0 +1,10 @@
+# Extra libraries used only by the training / analysis notebook (TrustGuard_Track2.ipynb), on top of requirements.txt.
+# The prediction notebook and model.pkl need only requirements.txt (the platform image).
+-r requirements.txt
+catboost==1.2.10        # model comparison only (not in the final model)
+shap==0.52.0            # explainability plots
+optuna==5.0.0           # hyper-parameter tuning
+imbalanced-learn==0.14.2  # SMOTE comparison
+cloudpickle==3.1.2
+gradio>=4.0             # optional dashboard
+ipython>=8.0
